@@ -1,0 +1,152 @@
+@charset "ISO-8859-1";
+/*ROOT*/
+body {
+	background-color: #faf9fa;
+	height: 100%;
+}
+
+/*HEADER*/
+.header {
+	padding: 30px;
+	text-align: center;
+	background: white;
+}
+
+.header h1 {
+	display: inline-block;
+	font-size: 30px;
+}
+
+.header p {
+	display: inline-block;
+}
+
+.topnav {
+	display: block;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	color: black;
+}
+
+/******************BODY**************/
+.row {
+	display: flex;
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.leftcolumn {
+	width: 85%;
+	padding: 20px 10px;
+	height: 100%;
+	display: inline-block;
+}
+
+.rightcolumn {
+	width: 15%;
+	padding: 10px 10px;
+	height: 100%;
+}
+
+.box {
+	display: inline-block;
+	background-color: #fff;
+	position: relative;
+	border-radius: 15px;
+	overflow: hidden;
+	width: 30%;
+	margin: 10px 10px;
+	box-shadow: 1px 1px 1px #efefef;
+}
+
+.box:hover {
+	box-shadow: 1px 1px 1px #c0c0c0;
+}
+
+.box .img-box {
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 75%;
+	height: 60%;
+}
+
+.box .img-box img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.box .detail-box {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+	padding: 0px 0px 20px;
+}
+
+.box .new {
+	padding: 7px 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #f0d43a;
+	color: #ffffff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	font-size: 15px;
+}
+
+.box .new:hover {
+	box-shadow: 1px 1px 1px #c0c0c0;
+	font-weight: bold;
+}
+
+.box .img-box-right {
+	margin: 0 auto;
+	width: 60%;
+	height: 60%;
+}
+
+.box .img-box-right img {
+	display: block;
+	margin: 20px 20px;
+	max-width: 90%;
+	max-height: 90%;
+}
+
+/* BUTTON */
+a {
+	text-decoration: none;
+}
+
+.btn {
+	background-color: orange;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	border-color: #ffc862;
+}
